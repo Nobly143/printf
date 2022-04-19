@@ -1,11 +1,11 @@
 .\" Manpage for _printf
-.TH man 8 "27 October 2020" "1.0" "_printf man page"
+.TH man 8 "19th April, 2022" "1.0" "_printf man page"
 
 .SH NAME
 _printf - format and write a string, character or integer to stdout
 
 .SH SYNOPSIS
-#include "holberton.h"
+#include "main.h"
 .br
 #include <stdarg.h>
 .br
@@ -18,8 +18,7 @@ int _printf(const char *format, ...)
 The function _printf() produces output according to format described below, writes output to stdout.
 .SS Return value
 .br
-upon successful return, this function returns a number of characters
-printed (excluding the null byte)
+upon successful returns, this function returns a number of characters printed (excluding the null byte)
 
 if an output error is encountered, a negative value is returned
 
@@ -34,4 +33,4 @@ No known bugs
 This page was created in collaboration with ALX.
 
 .SH AUTHORS
-.Noble Okechukwu and Akins Tunde Kola.
+.Noble Okechukwu and Akins Tunde Kola Both From Cohort-5
