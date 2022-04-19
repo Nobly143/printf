@@ -1,3 +1,3 @@
-Compile with:
+Compile using
 
-gcc -Wall -Werror -Wextra -pedantic ../*.c 0-main.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
